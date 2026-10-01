@@ -19,14 +19,14 @@ n = sigma * randn(size(t));
 s = A * cos(2 * pi * f .* t) + n;
 
 s_new = s;
-s_new = s_new(s_new > U_1);
+ss_new(s_new > U_1);
 
 s_new2 = s;
 s_new2(abs(s_new2) < U_2) = 0;
 
 size(s);
 
-size(s_new)
+size(s_new);
 
 min(s_new2);
 max(s_new2);
