@@ -1,0 +1,17 @@
+function [varargout] = grafsincos(x, varargin)
+
+for i = 1:1:length(x)
+    a = sin(x(i));
+    b = cos(x(i));
+end
+
+if nargin<2
+    figure;
+    subplot(2, 1, 1);
+    plot(x, a)
+    subplot(2, 1, 2);
+    plot(x, b)
+elseif nargin>=2
+    varargout{1} = a;
+    varargout{2} = b;
+end

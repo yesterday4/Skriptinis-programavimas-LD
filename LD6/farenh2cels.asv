@@ -1,0 +1,3 @@
+function cels = farenh2cels(farenh)
+    % FARENH2CELS converts temperature values from Fahrenheit to Celsius
+    % cels = farenh2cels(farenh) uses the va

@@ -1,0 +1,18 @@
+help farenh2cels
+a = farenh2cels(-40)
+
+%%
+global x y
+
+x = 2*pi:-0.1:-2*pi;
+y = zeros(size(x));
+
+for i = 0
+if x<0
+    funk_1
+elseif x>=0
+    funk_2
+end
+
+figure;
+plot(x, y);
